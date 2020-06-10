@@ -1,4 +1,10 @@
-# Connecting Python with a DataBase
+# Connecting Python with a DataBase / Pyodbc
+## Pyodbc is a Python package which acts as an API to connect and interact with a database.
+## CRUD stands for Create, Read, Update, Delete. CRUD is how we interact with a database in Python. 
+## In this project I am going to be creating a DB class which will represent pyodbc connection to the database. 
+## I will be creating new data in the table, reading data in the table, updating the table, and deleting some data from the table.
+## I will be doing this for the products and clients table and have them in seperate git branches to seperate them and also get more familiar with git branching.
+
 
 ## First we need to connect to pyodbc using 
 

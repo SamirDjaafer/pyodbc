@@ -11,6 +11,9 @@ class DB:
         'DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + self.server + ';DATABASE=' + self.database + ';UID=' + self.username + ';PWD=' + self.password)
         self.cursor = self.connection.cursor()
 
+    def execute(self, what, where):
+        self.cursor.execute(f'SELECT {what} FROM {where}')
+
 
 SpartaDB = DB()
 
